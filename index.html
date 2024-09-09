@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu" id="menu">
+        <h1>Ping Pong</h1>
+        <button id="playButton">Jogar</button>
+        <button id="instructionsButton">Instruções</button>
+    </div>
+
+    <div class="instructions" id="instructions">
+        <h2>Como Jogar</h2>
+        <p>Use as setas para cima e para baixo para mover sua raquete. O objetivo é rebater a bola e fazer com que o oponente (computador) não consiga defendê-la. Pontue para ganhar!</p>
+        <button id="closeInstructions">Fechar</button>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+    <div id="score">
+        <span id="playerScore">0</span> - <span id="computerScore">0</span>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
